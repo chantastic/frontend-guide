@@ -12,8 +12,8 @@ A Guide to PCO Frontend Tools and Techniques
 
 ### Things you should know:
 
-#### The Topbar lives is Interfaces
-Topbar is one of the sole functional responsibility of Interfaces. All the smarts about app and user switching happens in Interfaces.
+#### The Topbar lives in Interfaces
+Topbar is one of the few responsibilities of Interfaces. All the smarts about app and user switching happens in Interfaces.
 
 #### Interfaces is a starting point
 Don't feel weird about "outgrowing" Interfaces. It's a starting point. In versions to come, improving extensibility is the foremost concern.
@@ -44,7 +44,7 @@ SVGs are more accessible than icon-fonts. Once we've worked out the kinks, this 
 * Repo/Docs: [https://github.com/ministrycentered/interfaces_icons](https://github.com/ministrycentered/interfaces_icons)
 
 ## minions.css
-> Minions a large collection of responsive-capable utility classes. They serve to eliminate the proliferation of BEM modifiers and necessary nudges. It's literally so much jargon who knows what it means.
+> Minions are a large collection of responsive-capable utility classes. They serve to eliminate the proliferation of BEM modifiers and necessary nudges. It's literally so much jargon, who knows what it means?
 
 ### Things you should know:
 
@@ -52,17 +52,17 @@ SVGs are more accessible than icon-fonts. Once we've worked out the kinks, this 
 minions classes need to be **last** in your CSS manifest. They only have a specificity of `0,0,1,0`. So, write your styles carefully.
 
 #### Utility classes are a great alternative to "modifiers"
-If you've used BEM for a while, you know modifiers is where the entire system gets crufty. Reach for minions before creating new modifiers.
+If you've used BEM for a while, you know modifiers are where the entire system gets crufty. Reach for minions before creating new modifiers.
 
 #### Best-practices are TBD
-Utility classes, are a relatively new addition to our frontend toolset. So, it's possible to over use them. Know that we don't have any tools yet to provide data about commonly used collections of used utility-classes.
+Utility classes are a relatively new addition to our frontend toolset. So, it's possible to over use them. Know that we don't have any tools yet to provide data about commonly used collections of used utility-classes.
 
 ### Resources
 * minions.css (source): [https://github.com/chantastic/minions.css](https://github.com/chantastic/minions.css)  
 * minions_rails (Rails asset gem): [https://github.com/chantastic/minions_rails](https://github.com/chantastic/minions_rails)  
 
 ## Rails SJR
-> Server-generated JavaScript Responses is a technique we make heavy use of in our Rails apps. It should be the first-line of defense in adding interactivity to Rails page.
+> Server-generated JavaScript Responses are a technique we make heavy use of in our Rails apps. It should be the first-line of defense in adding interactivity to a Rails page.
 
 ### Resources
 
@@ -73,7 +73,7 @@ Utility classes, are a relatively new addition to our frontend toolset. So, it's
 * Repo: [https://github.com/reactjs/react-rails](https://github.com/reactjs/react-rails)
 
 ## Turbolinks
-> Turbolinks makes following links in your web application faster. Instead of letting the browser recompile the JavaScript and CSS between each page, it keeps the current page instance alive and replaces only the body (or parts of) and the title in the head.
+> Turbolinks makes following links in your web application faster. Instead of forcing the browser to recompile the JavaScript and CSS between each page, it keeps the current page instance alive and replaces only the body (or parts of) and the title in the head.
 
 ### Things you should know:
 
