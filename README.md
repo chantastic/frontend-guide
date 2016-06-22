@@ -23,7 +23,7 @@ Developing in a shared/versioned/changelogged space is painful. Avoid the pain b
 
 ### References
 * Docs: [http://pco-interfaces.herokuapp.com](http://pco-interfaces.herokuapp.com/interfaces)  
-* Repo: [https://github.com/ministrycentered/interfaces](https://github.com/ministrycentered/interfaces)
+* Repo: [https://github.com/ministrycentered/interfaces](../ministrycentered/interfaces/ministrycentered/interfaces)
 
 ## InterfacesIcons
 > InterfacesIcons provides shared icons to PCO apps. SVG icons are made available in Rails and React variants.
@@ -34,14 +34,14 @@ Developing in a shared/versioned/changelogged space is painful. Avoid the pain b
 At the time of writing only People and Check-Ins use InterfacesIcons. And Check-Ins is on an old pre-SVG version.
 
 #### It's a WIP
-If you find parts of it painful, let [me](@chantistic) know.
+If you find parts of it painful, let [me](../chantastic) know.
 
 #### Eventually all icons will live here
 SVGs are more accessible than icon-fonts. Once we've worked out the kinks, this will be the single repository for Planning Center icons.
 
 ### References
 * Available Icons: [http://pco-interfaces.herokuapp.com/interfaces_icons](http://pco-interfaces.herokuapp.com/interfaces_icons)  
-* Repo/Docs: [https://github.com/ministrycentered/interfaces_icons](https://github.com/ministrycentered/interfaces_icons)
+* Repo/Docs: [https://github.com/ministrycentered/interfaces_icons](../ministrycentered/interfaces_icons)
 
 ## minions.css
 > Minions are a large collection of responsive-capable utility classes. They serve to eliminate the proliferation of BEM modifiers and necessary nudges. It's literally so much jargon, who knows what it means?
@@ -58,8 +58,8 @@ If you've used BEM for a while, you know modifiers are where the entire system g
 Utility classes are a relatively new addition to our frontend toolset. So, it's possible to over use them. Know that we don't have any tools yet to provide data about commonly used collections of used utility-classes.
 
 ### Resources
-* minions.css (source): [https://github.com/chantastic/minions.css](https://github.com/chantastic/minions.css)  
-* minions_rails (Rails asset gem): [https://github.com/chantastic/minions_rails](https://github.com/chantastic/minions_rails)  
+* minions.css (source): [https://github.com/chantastic/minions.css](../chantastic/minions.css)  
+* minions_rails (Rails asset gem): [https://github.com/chantastic/minions_rails](../chantastic/minions_rails)  
 
 ## Rails SJR
 > Server-generated JavaScript Responses are a technique we make heavy use of in our Rails apps. It should be the first-line of defense in adding interactivity to a Rails page.
@@ -70,7 +70,7 @@ Utility classes are a relatively new addition to our frontend toolset. So, it's 
 
 ### react-rails
 
-* Repo: [https://github.com/reactjs/react-rails](https://github.com/reactjs/react-rails)
+* Repo: [https://github.com/reactjs/react-rails](../reactjs/react-rails)
 
 ## Turbolinks
 > Turbolinks makes following links in your web application faster. Instead of forcing the browser to recompile the JavaScript and CSS between each page, it keeps the current page instance alive and replaces only the body (or parts of) and the title in the head.
@@ -78,16 +78,16 @@ Utility classes are a relatively new addition to our frontend toolset. So, it's 
 ### Things you should know:
 
 #### We use 2 versions of Turbolinks
-* [Turbolinks Classic](https://github.com/turbolinks/turbolinks-classic) is used in most of our apps.
-* [Turbolinks (v5)](https://github.com/turbolinks/turbolinks) is used in apps that have been migrated to Rails 5 (or are in that process).
+* [Turbolinks Classic](../turbolinks/turbolinks-classic) is used in most of our apps.
+* [Turbolinks (v5)](../turbolinks/turbolinks) is used in apps that have been migrated to Rails 5 (or are in that process).
 
 Make sure you're viewing documentation for the Turbolinks version loaded in your app. These versions are **very** different.
 
 #### Turbolinks affects jQuery and React
-* [Running jQuery initializer functions in **Turbolinks Classic**](https://github.com/turbolinks/turbolinks#running-javascript-when-a-page-loads)
-* [Running jQuery initializer functions in **Turbolinks v5**](https://github.com/turbolinks/turbolinks#running-javascript-when-a-page-loads)
-* [Mounting/unmounting React Components using the `react_component` helper](https://github.com/reactjs/react-rails#rendering--mounting)
+* [Running jQuery initializer functions in **Turbolinks Classic**](../turbolinks/turbolinks#running-javascript-when-a-page-loads)
+* [Running jQuery initializer functions in **Turbolinks v5**](../turbolinks/turbolinks#running-javascript-when-a-page-loads)
+* [Mounting/unmounting React Components using the `react_component` helper](../reactjs/react-rails#rendering--mounting)
 
 ### References
-* Turbolinks Classic: [https://github.com/turbolinks/turbolinks-classic](https://github.com/turbolinks/turbolinks-classic)
-* Turbolinks (v5+): [https://github.com/turbolinks/turbolinks](https://github.com/turbolinks/turbolinks)
+* Turbolinks Classic: [https://github.com/turbolinks/turbolinks-classic](../turbolinks/turbolinks-classic)
+* Turbolinks (v5+): [https://github.com/turbolinks/turbolinks](../turbolinks/turbolinks)
